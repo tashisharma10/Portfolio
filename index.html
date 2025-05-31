@@ -715,22 +715,23 @@ I love exploring new tools, collaborating on innovative projects, and turning ch
   <span class="skill-item">Problem solving</span>
   <span class="skill-item">Time management</span>
   <span class="skill-item">Communication</span>
-  
- 
-  <span class="skill-item">Creative thinking</span>
 </h5>
 
 <style>
-  .softskills {
-    white-space: nowrap; /* Prevent wrapping to next line */
-  }
   .softskills .skill-item {
-    display: inline-block;
-    margin-left: 12px; /* Adjust spacing as needed */
+  display: inline-block;
+  margin-left: 12px; /* Adjust spacing as needed */
+}
+.softskills .skill-item:first-child {
+  margin-left: 5px;
+}
+@media (max-width: 600px) {
+  .softskills .skill-item {
+    margin-left: 6px;
+    font-size: 15px;
   }
-  .softskills .skill-item:first-child {
-    margin-left: 5px;
-  }
+}
+
 </style>
 
             </li>

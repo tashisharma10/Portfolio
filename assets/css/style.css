@@ -942,7 +942,9 @@ main {
   margin-bottom: 10px;
 }
 
-.project-item { display: none; }
+
+.project-item { display: block !important; }
+
 
 .project-item.active {
   display: block;
